@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <input type="checkbox" id="darkMode" class="dark-mode-check" />
+    <div class="wrapper">
+      <!-- dark mode toggler -->
+      <label for="darkMode">
+        <i class="fa-solid fa-circle-half-stroke dark-mode-toggler"></i>
+      </label>
+      <!-- Header -->
+      <header class="flex primary-header">
+        <div class="logo flex">
+          <div>
+            <h1>Prakash</h1>
+          </div>
+          <div>
+            <h1 class="line">Front-end Developer</h1>
+          </div>
+        </div>
+        <!-- top menu -->
+
+        <div class="right">
+          <input type="checkbox" id="check" />
+          <label for="check" class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul class="flex navigation">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- Hero -->
+      <section class="section1" id="header">
+        <div class="hero grid">
+          <div class="left flex">
+            <div class="flex">
+              <div class="name">Hi, I am Prakash Karki</div>
+              <div class="tag">WEB DEVELOPER</div>
+              <div class="sub-tag">I love coding and teach other ...</div>
+              <button>
+                <a href="./assets/img/user1.png" download>
+                  Download CV
+                  <i class="fa-solid fa-download"></i>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="right">
+            <img src="./assets/img/user1.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner -->
+      <section class="section2" id="home">
+        <div class="info-container flex">
+          <div class="info-lists flex">
+            <div class="info-content flex">
+              <div class="icon-container flex">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <span>
+                <h5>IT</h5>
+                <p>Graduate</p>
+              </span>
+            </div>
+            <div class="info-divider"></div>
+            <div class="info-content flex">
+              <div class="icon-container flex">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <span>
+                <h5>1+ years</h5>
+                <p>Coding Experience</p>
+              </span>
+            </div>
+            <div class="info-divider"></div>
+            <div class="info-content flex">
+              <div class="icon-container flex">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <span>
+                <h5>5+</h5>
+                <p>Projects</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skills -->
+      <section class="section3" id="skills">
+        <div class="skills-container flex">
+          <div class="flex">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+          </div>
+
+          <div class="flex">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+          </div>
+
+          <div class="flex">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+          </div>
+
+          <div class="flex">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+          </div>
+
+          <div class="flex">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+          </div>
+
+          <div class="flex">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+          </div>
+
+          <div class="flex">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+          </div>
+
+          <div class="flex">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+          </div>
+
+          <div class="flex">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+          </div>
+
+          <div class="flex">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+          </div>
+          <div class="flex">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+          </div>
+        </div>
+      </section>
+      <!-- Projects -->
+      <section class="section4 flex" id="projects">
+        <h2 class="title">My Recent Work</h2>
+        <div class="projects-container grid">
+          <div class="project-card">
+            <div class="top">
+              <img src="./assets/img/project.png" alt="" />
+            </div>
+            <div class="buttom">
+              <div class="flex">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <p>Portfolio with React</p>
+              <p>22 April 2023</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="top">
+              <img src="./assets/img/project.png" alt="" />
+            </div>
+            <div class="buttom">
+              <div class="flex">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <p>Portfolio with React</p>
+              <p>22 April 2023</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="top">
+              <img src="./assets/img/project.png" alt="" />
+            </div>
+            <div class="buttom">
+              <div class="flex">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <p>Portfolio with React</p>
+              <p>22 April 2023</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="top">
+              <img src="./assets/img/project.png" alt="" />
+            </div>
+            <div class="buttom">
+              <div class="flex">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <p>Portfolio with React</p>
+              <p>22 April 2023</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Me -->
+      <section class="section5 flex" id="about">
+        <h2 class="title">About Me</h2>
+        <div class="about-container flex">
+          <div class="left">
+            <img src="./assets/img/user1.png" alt="" />
+          </div>
+          <div class="right flex">
+            <h2>Prakash Karki</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+              velit amet, neque quae culpa quos voluptatum harum?
+            </p>
+            <div class="flex">
+              <div class="tag">Interests</div>
+              <div class="flex">
+                <span>Coding</span>
+                <span>Football</span>
+                <span>Movies</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section class="section6 flex" id="contact">
+        <h2 class="title">Get in Touch</h2>
+        <div class="socials flex">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+        <h3 class="title">OR</h3>
+
+        <div class="email-section flex">
+          <div class="email flex">
+            <p>karkiprakash049@gmail.com</p>
+            <a href="mailto:karkiprakash049@gmail.com">
+              <div class="send">
+                <i class="fa-solid fa-envelope"></i></div
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-container flex">
+          <div class="flex links">
+            <h3>Links</h3>
+            <ul class="flex">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about">About Me</a></li>
+            </ul>
+          </div>
+          <div class="flex links">
+            <h3>Socials</h3>
+            <ul class="flex">
+              <li><a href="">Linkedin</a></li>
+              <li><a href="">Youtube</a></li>
+              <li><a href="">Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">&copy; All Right Reserved.</div>
+      </footer>
+    </div>
+  </body>
+</html>
